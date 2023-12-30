@@ -1,16 +1,13 @@
 {
   "files": {
     "main.css": "/pin-authenticator/static/css/main.9c81dc14.css",
-    "main.js": "/pin-authenticator/static/js/main.c169d8b5.js",
-    "static/media/meme2.jpeg": "/pin-authenticator/static/media/meme2.318a55126d07dd332be8.jpeg",
-    "static/media/meme3.webp": "/pin-authenticator/static/media/meme3.a8af595e85162e0825af.webp",
-    "static/media/meme1.jpeg": "/pin-authenticator/static/media/meme1.ca7382d63dad795d4394.jpeg",
+    "main.js": "/pin-authenticator/static/js/main.3d6d6c67.js",
     "index.html": "/pin-authenticator/index.html",
     "main.9c81dc14.css.map": "/pin-authenticator/static/css/main.9c81dc14.css.map",
-    "main.c169d8b5.js.map": "/pin-authenticator/static/js/main.c169d8b5.js.map"
+    "main.3d6d6c67.js.map": "/pin-authenticator/static/js/main.3d6d6c67.js.map"
   },
   "entrypoints": [
     "static/css/main.9c81dc14.css",
-    "static/js/main.c169d8b5.js"
+    "static/js/main.3d6d6c67.js"
   ]
 }
