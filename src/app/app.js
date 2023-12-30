@@ -24,18 +24,23 @@ const App = () => {
 	}
 
 	return (
-		<div>
-			<input min="1" max="9" type="number" name="pin1" onChange={(event) => setNumber1(event.target.value)}/>
-			<input min="1" max="9" type="number" name="pin2" onChange={(event) => setNumber2(event.target.value)}/>
-			<input min="1" max="9" type="number" name="pin3" onChange={(event) => setNumber3(event.target.value)}/>
+		<div className="container">
+			<h1>
+				Please enter your three-digit PIN to continue
+			</h1>
 			<div>
+				<div>
+					<input min="1" max="9" type="number" name="pin1" onChange={(event) => setNumber1(event.target.value)}/>
+					<input min="1" max="9" type="number" name="pin2" onChange={(event) => setNumber2(event.target.value)}/>
+					<input min="1" max="9" type="number" name="pin3" onChange={(event) => setNumber3(event.target.value)}/>
+				</div>
 				<button onClick={onClick}>Submit</button>
 			</div>
 			{isSuccess && <div>
-				<p>Hooray! Those are the correct numbers!</p>
+				<h2>Access granted! Next, you will meet your onboarding instructor. Please connect with them to receive a special message.</h2>
 			</div>}
 			{isFailure && <div>
-				<p>Incorrect. Please review your numbers.</p>
+				<h2>Incorrect. Please review your pre-onboarding assignments. If you have any questions the please reach out to your companion-bot</h2>
 			</div>}
 		</div>
 	)
