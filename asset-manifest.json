@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pin-authenticator/static/css/main.24267804.css",
-    "main.js": "/pin-authenticator/static/js/main.2eb57df0.js",
+    "main.css": "/pin-authenticator/static/css/main.3c58b9af.css",
+    "main.js": "/pin-authenticator/static/js/main.edfc6aea.js",
     "index.html": "/pin-authenticator/index.html",
-    "main.24267804.css.map": "/pin-authenticator/static/css/main.24267804.css.map",
-    "main.2eb57df0.js.map": "/pin-authenticator/static/js/main.2eb57df0.js.map"
+    "main.3c58b9af.css.map": "/pin-authenticator/static/css/main.3c58b9af.css.map",
+    "main.edfc6aea.js.map": "/pin-authenticator/static/js/main.edfc6aea.js.map"
   },
   "entrypoints": [
-    "static/css/main.24267804.css",
-    "static/js/main.2eb57df0.js"
+    "static/css/main.3c58b9af.css",
+    "static/js/main.edfc6aea.js"
   ]
 }
