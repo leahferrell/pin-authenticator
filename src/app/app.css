@@ -39,3 +39,21 @@ button {
 	background-color: #036edb;
 	color: #f5f5f5;
 }
+
+.success, .success > * {
+	background-color: #4bae4b;
+	color: #ffffff;
+}
+
+.success {
+	padding: 20px;
+}
+
+.failure, .failure > * {
+	background-color: #ca222f;
+	color: #ffffff;
+}
+
+.failure {
+	padding: 20px;
+}
