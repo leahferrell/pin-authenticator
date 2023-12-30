@@ -40,7 +40,7 @@ const App = () => {
 				<h2>Access granted! Next, you will meet your onboarding instructor. Please connect with them to receive a special message.</h2>
 			</div>}
 			{isFailure && <div>
-				<h2>Incorrect. Please review your pre-onboarding assignments. If you have any questions the please reach out to your companion-bot</h2>
+				<h2>Incorrect. Please review your pre-onboarding assignments. If you have any questions, then please reach out to your companion-bot</h2>
 			</div>}
 		</div>
 	)
