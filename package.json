@@ -1,0 +1,42 @@
+{
+  "name": "pin-authenticator",
+  "version": "1.0.0",
+  "description": "simple website to validate a pin",
+  "main": "index.js",
+  "scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject",
+		"deploy": "npm run build && gh-pages -t -d build"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leahferrell/pin-authenticator.git"
+  },
+  "author": "Leah Ferrell",
+  "license": "ISC",
+	"homepage": "https://leahferrell.github.io/pin-authenticator",
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "@types/react": "^18.0.26",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  },
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	}
+}
